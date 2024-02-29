@@ -12,6 +12,7 @@ Non Science Performannce Metrics
 The Data facility and campaign tem should report on several metrics for procesing runs to allow us to asses the state of the facility and processing. 
 
 There may be some trade off between science and non science metrics. 
+Science metrics are covered in :cite:`RTN-038`
 
 The processing metrics include:
   - job completion time
@@ -27,3 +28,9 @@ The processing metrics include:
 The Science Platform metrics include:
   - Number of RSP accounts – total as a function of time
   - Active RSP accounts hour/day)
+
+
+References
+==========
+
+.. bibliography::
