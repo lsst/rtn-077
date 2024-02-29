@@ -3,5 +3,3 @@
 
 from documenteer.conf.technote import *  # noqa F401 F403
 
-
-bibtex_default_style = "lsst_aa"
