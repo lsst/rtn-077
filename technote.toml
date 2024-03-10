@@ -21,3 +21,11 @@ orcid = "https://orcid.org/0000-0003-4141-6195"
 name = "Vera C. Rubin Observatory"
 internal_id = "RubinObsC"
 address = "Avenida Juan Cisternas 1500, La Serena, Chile"
+
+[[technote.authors]]
+name.given = "Yusra"
+name.family = "AlSayyad"
+orcid = "https://orcid.org/0009-0008-9216-7516"
+[[technote.authors.affiliations]]
+name = "Princeton University"
+address = "4 Ivy Lane, Princeton NJ 08544"
