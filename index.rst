@@ -10,7 +10,9 @@ Non-Quality Performance Metrics for DM in Operations
 Non-Scientific Performance Metrics for Operations
 =================================================
 
-Scientific quality metrics address the accuracy and reliability of our data products, and have been defined and tracked extensively throughout construction :cite:`LPM-17,DMTN-211,DMTN-091, LSE-63,DMTN-008, PSTN-023, SQR-008` and references therein. See :cite:`RTN-038` for a summary of how these quality metrics will be used in operations.
+Scientific quality metrics address the accuracy and reliability of our data products, and have been defined and tracked extensively throughout construction :cite:`LPM-17,DMTN-211,DMTN-091, LSE-63,DMTN-008, PSTN-023, SQR-008` and references therein.
+These quality metrics also include non-scientific metrics that ensure track DM system requirements :cite:`LSE-61`, such as time to issue alerts after shutter close.
+See :cite:`RTN-038` for a summary of how these quality metrics will be used in operations.
 
 This document outlines the operational *non-quality* metrics for assessing and improving our system's performance and user experience. Non-quality metrics provide insights into the operational efficiency, usage patterns, infrastructure robustness, development processes, and security measures of the Data Management System. By monitoring these metrics, we aim to ensure that our infrastructure and services remain effective and secure, supporting our scientific objectives and user community.
 
@@ -23,9 +25,9 @@ Data Production
 **Software (Science Pipelines)**
 
 - Deployment Frequency: *How often is* ``lsst_distrib`` *released?*
-- Lead time for changes: *Average time to research, implement and changes of three different levels: *non-scientific-behavior bug fix,  scientific-behavior change, swapping in a new state of the art algorithm.*
+- Lead time for changes: *Average time to research, implement and changes of three different levels: non-scientific-behavior bug fix,  scientific-behavior change, swapping in a new state of the art algorithm.*
 - Average time to recovery: *time to notice and fix a breaking commit on main for both* ``lsst_distrib`` *itself and various conitnuous integration builds.*
-- Average time to investigate an issue:
+- Average time to investigate an issue
 
 **Campaign Management (tracked jointly with Data Facility)**
 
@@ -46,10 +48,10 @@ These metrics are affected by the pipeline software and also provide insights in
 Data Services
 -------------
 
-The Science Platform metrics include:
-  - Number of RSP accounts – total as a function of time
-  - Active RSP accounts hour/day)
+The Science Platform (RSP) metrics include:
 
+- Number of RSP accounts: *total accounts per day*
+- Active RSP accounts: *number of accounts logged in, and active per hour*
 
 Data Facility Infrastructure
 ----------------------------
